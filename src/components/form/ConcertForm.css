@@ -1,0 +1,64 @@
+.concert-form {
+  background-color: #fef7e5;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  margin: 30px auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.concert-form label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2f234f;
+  margin-bottom: 8px;
+}
+
+.concert-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+}
+
+.concert-form input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.concert-form input[type="number"]::-webkit-outer-spin-button,
+.concert-form input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.concert-form .error {
+  color: #d9534f;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.concert-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2f234f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.concert-form button:hover {
+  background-color: #574c4c;
+}
+
+.concert-form button:active {
+  background-color: #3c2c4f;
+}

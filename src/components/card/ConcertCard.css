@@ -1,0 +1,30 @@
+.card {
+    transition: border 0.4s ease-in-out;
+}
+
+.card:not(.border-danger):hover {
+    border: 0.2vh solid #2f234f;
+}
+
+.about {
+    color: #2f234f !important; 
+    font-weight: bold !important;
+    text-decoration: none !important;
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    font-size: 1.1rem !important;
+    transition: all 0.3s ease;
+}
+
+.about:hover {
+    text-decoration: underline !important; 
+}
+
+
+@media (max-width: 768px) {
+    .concert-col {
+        display: flex;
+        justify-content: center;
+    }
+}
